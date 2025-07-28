@@ -14,6 +14,8 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: DEV    # Add this line to specify the environment
+
 
     steps:
       - uses: actions/checkout@v2
